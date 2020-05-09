@@ -1,8 +1,12 @@
+## Initialization
+
 Initialize a git repository
 - open command prompt
 - place yourself in the project folder (cd..)
 - git init
 
+
+## Manipulations
 
 Check status:
 git status
@@ -12,6 +16,9 @@ git diff filename
 
 Add file to staging
 git add filename
+
+Stage all files
+git add .
 
 Remove file from staging
 git rm --cached filename
