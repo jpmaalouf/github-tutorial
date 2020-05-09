@@ -52,3 +52,21 @@ Checkout/Revert/Reset a commit: https://www.youtube.com/watch?v=RIYrfkZjWmA&list
 Checkout: check what's inside this commit in particular
 Revert: "kind of" delete a particular commit
 Reset: delete all the commits after one particular commit
+
+Checkout:
+git checkout e0a9052
+
+Go back to master branch after checkout
+git checkout e0a9052
+
+Revert commit
+git revert e0a9052
+
+Create branch
+git branch branchname
+
+Check list of available branches and see which branch we're on
+git branch -a
+
+Checkout on specific branch
+git checkout branchname
