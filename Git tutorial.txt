@@ -70,3 +70,12 @@ git branch -a
 
 Checkout on specific branch
 git checkout branchname
+
+Create & checkout branch (shortcut)
+git checkout -b branchname
+
+Delete specific branch
+git branch -D branchname
+
+
+
