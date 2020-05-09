@@ -81,5 +81,14 @@ MErging branches
 Checkout to branch we want to merge into (e.g. master)
 git merge branchname
 
+Push repository on github
+git push https://github.com/jpmaalouf/test.git master
+
+Setting URL alias (named origin below)
+git remote add origin https://github.com/jpmaalouf/github-tutorial.git
+
+
+
+
 
 
