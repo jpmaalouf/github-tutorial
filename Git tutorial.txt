@@ -42,5 +42,13 @@ git commit -m "log message"
 Check repository commit history
 git log
 
+Short version:
+git log --oneline
+
 Check one single file history
 git log path
+
+Checkout/Revert/Reset a commit: https://www.youtube.com/watch?v=RIYrfkZjWmA&list=PL4cUxeGkcC9goXbgTDQ0n_4TBzOO0ocPR&index=7
+Checkout: check what's inside this commit in particular
+Revert: "kind of" delete a particular commit
+Reset: delete all the commits after one particular commit
